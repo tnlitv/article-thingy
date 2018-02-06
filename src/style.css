@@ -1,0 +1,30 @@
+.content{
+    padding: 30px;
+    width: 70vw;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+.paragraph-text{
+    line-height: 1.6em;
+    margin-bottom: 1.25rem;
+    font-size: 1.125rem
+}
+
+.suggest-textarea{
+    display: block;
+    width: 100%;
+    font-size: 1.125rem;
+    padding: 5px;
+    height: 100px;
+}
+
+.btn{
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.paragraph-box{
+    border-bottom: 1px solid gray;
+}
