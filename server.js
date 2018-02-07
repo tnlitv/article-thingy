@@ -142,15 +142,15 @@ router.route('/suggestions')
             query = { 'suggestions.is_approved': true }
         }
         else {
-            //not sure if this works :(
-            query = { 'suggestions.is_approved': { $all: [false] } }
+            query = { suggestions: { $gt: [] }, 'suggestions.is_approved':  { $ne: true } }
         }
+
         console.log(query);
+
         Paragraph
             .find(query)
             .exec(function(err, paragraphs) {
                 if (err) res.send(err);
-
                 res.json(paragraphs)
             })
     })
