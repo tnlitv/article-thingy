@@ -1,7 +1,7 @@
 ## Prerequisites   
 
 Please make sure you have mongodb instance running locally   
-(or adjust db config in `config/config.js`
+Make sure to add a `config.js` file in the `config` folder. See the `config/config-example.js` there for more details.  
 
 ## Running
 
